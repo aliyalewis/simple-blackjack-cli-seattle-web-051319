@@ -63,5 +63,5 @@ def runner
     hand = hit?(hand)
     display_card_total(hand)
   end
-
+ puts "Sorry, you hit #{hand}. Thanks for playing!"
 end
